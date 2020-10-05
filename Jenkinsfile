@@ -10,7 +10,7 @@ pipeline {
 
    stage('Docker Build') {
       steps {
-            sh(script: 'node --version')
+            pwsh(script: 'node --version')
          }
    }    
    }
